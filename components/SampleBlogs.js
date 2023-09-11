@@ -56,7 +56,7 @@ function One_sample(prop){
   )
 }
 const blog=Featured_Blog.map((blog)=>{
-  return (<One_sample Blog={blog}/>)
+  return (<One_sample key={blog.id} Blog={blog}/>)
 })
 
 export default function SampleBlog() {

@@ -37,7 +37,7 @@ export default function Event_single(prop) {
           <h1 className={style.eventtitle} >{Event.Ename}</h1>
           <p className={style.eventtype} >{Event.Etype}</p>
           <p className={style.eventdescription} >{Event.Edescription}</p>
-          <a className={style.eventlink} href={Event.Eformlink}>Click for more >></a>
+          <a className={style.eventlink} href={Event.Eformlink}>Click for more {">>"}</a>
           <br />
           <button className={style.eventbutton}>Upcoming</button>
         </div>

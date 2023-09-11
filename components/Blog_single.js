@@ -48,7 +48,7 @@ export default function Blog_single(prop) {
           <h1 className={style.eventtitle} >{Blog.title}</h1>
           <p className={style.eventtype} >{Blog.type}</p>
           <p className={style.eventdescription} >{Blog.short_description}</p>
-          <a className={style.eventlink}>Click for more >></a>
+          <a className={style.eventlink}>Click for more {">>"}</a>
           <br />
         </div>
       </a>
