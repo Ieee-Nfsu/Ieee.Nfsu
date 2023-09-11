@@ -1,6 +1,6 @@
 import Link from "next/link";
 //import logo from "../ieee_white_logo.png";\
-import logo from "../images/IEEE-NFSU.png"
+import logo from "../images/ieee-nfsu-logo.png"
 import Image from "next/image";
 import { useState } from "react";
 var style = {
@@ -9,7 +9,7 @@ var style = {
   hidden_link:"hidden md:block md:flex gap-10 text-white items-center p-2",
   button: "hover:underline cursor-pointer text-lg",
   pillbtn:"block md:hidden ",
-  logo: "w-5 cursor-pointer ",
+  logo: "w-3 cursor-pointer ",
   logocontainer: "w-80",
   hidden_logo:"hidden md:block w-80",
   bigbutton: "p-3 text-lg rounded-full bg-[#00B5E2] pointer hover:font-bold"

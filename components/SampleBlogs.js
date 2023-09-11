@@ -2,7 +2,7 @@ import { VscAccount } from "react-icons/vsc";
 import { VscCalendar } from "react-icons/vsc";
 import Link from "next/link";
 const Featured_Blog=[
-  {author_imglink: "https://media.licdn.com/dms/image/C4E03AQH4XuERiRcggA/profile-displayphoto-shrink_100_100/0/1567765138271?e=1700092800&v=beta&t=c1YG6s8HUwQB-Qyhfg_40Rtp8JDr4SBWk6sHtj7wlJU", 
+  {author_imglink: "https://media.licdn.com/dms/image/C4E03AQH4XuERiRcggA/profile-displayphoto-shrink_800_800/0/1567765138338?e=1700092800&v=beta&t=d91tNona4Bf_-gk47ipvSUmgub3XY8O5756Kzix26bg", 
   id: "YAFZ0FqaMa5EQUBoqS2o", 
   short_description: "In the ever-evolving landscape of technology, the IEEE Student Branch at the National Forensic Sciences University (NFSU) stands as a beacon of innovation and knowledge dissemination. Nestled within a prestigious institution renowned for its expertise in forensic sciences, this student branch is a hub where cybersecurity, digital forensics, and cutting-edge developments converge to shape the future of both technology and forensic investigations..",
   author_name: "Ahlad Kumar", 

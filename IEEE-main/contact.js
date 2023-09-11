@@ -1,7 +1,7 @@
-import github from "./github.png"
-import discord from "../images/disco.png"
-import instagram from "./instagram.png"
-import linkdin from "./linkedin.png"
+// import github from "./github.png"
+// import discord from "../images/disco.png"
+// import instagram from "./instagram.png"
+// import linkdin from "./linkedin.png"
 import { useRef } from "react"
 import emailjs from '@emailjs/browser'
 
