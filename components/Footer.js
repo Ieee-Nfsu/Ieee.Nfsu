@@ -75,7 +75,7 @@ export default function Footer() {
                   className="pr-5 md:pr-0 text-gray-500"
                 >
                   <span className="link link-underline link-underline-black">
-                    Twitter
+                    Facebook
                   </span>
                 </a>
               </div>

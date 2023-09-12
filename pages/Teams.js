@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
 
-var TeamMembers=[
+var Executive_team=[
   {
   "Name":"Aditi Kulkarni",
   "Position":"Chair",
@@ -23,13 +23,23 @@ var TeamMembers=[
     {
   "Name":"Jayant Dubey",
   "Position":"Secretary",
+  "Linkdin":"https://www.linkedin.com/in/Jayant-dubey/",
+  "github":"https://github.com/ryuk-jayant",
+  "mail":"mailto:jayant.dubey@ieee.org",
+  "profile_url":"https://avatars.githubusercontent.com/u/97748684?v=4"
+},
+  {
+  "Name":"Khushi Bansal",
+  "Position":"Treasurer",
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://avatars.githubusercontent.com/u/97748684?v=4"
+  "profile_url":"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 },
+]
 
-    {
+var Program_team=[ 
+  {
   "Name":"Kunal choudhary",
   "Position":"Web Lead",
   "Linkdin":"www.linkedin.com/in/kunal-choudhary-23aa81224",
@@ -59,7 +69,7 @@ var TeamMembers=[
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://media.licdn.com/dms/image/D4D03AQEGEPTHoagqpg/profile-displayphoto-shrink_100_100/0/1687629777596?e=1700092800&v=beta&t=OWyv-85_nHPSg5hEjk9T77X9zJ77qjtRTsUmJwY14Xc"
+"profile_url":"https://media.licdn.com/dms/image/D4D03AQEGEPTHoagqpg/profile-displayphoto-shrink_100_100/0/1687629777596?e=1700092800&v=beta&t=OWyv-85_nHPSg5hEjk9T77X9zJ77qjtRTsUmJwY14Xc"
 },
   {
   "Name":"Taneesha Shah",
@@ -109,14 +119,7 @@ var TeamMembers=[
   "mail":"",
   "profile_url":"https://media.licdn.com/dms/image/D4D03AQGk19mEp4aTAw/profile-displayphoto-shrink_400_400/0/1685706546602?e=1700092800&v=beta&t=ZwoozTkz0bDEVbBfyy1Rk-xhrWoe7OUYNHbPB78mfb8"
 },
-  {
-  "Name":"Khushi Bansal",
-  "Position":"Finance Committe",
-  "Linkdin":"",
-  "github":"",
-  "mail":"",
-  "profile_url":"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-},
+  
     {
   "Name":"Nitish Deshpande",
   "Position":"Media and Membership Committe",
@@ -154,10 +157,10 @@ var TeamMembers=[
 
   
 const style = {
-  title: "text-8xl font-semibold text-white text-center absolute top-1/3 inset-x-1/3",
-  cardscontainer:"mx-20 mt-16 gap-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center md:justify-around justify-center",
-  centerLastTwo: "md:justify-around justify-center md:justify-center",
-  single_cardcontainer:" text-white w-[330px] flex flex-col items-center shadow-black hover:shadow-xl bg-slate-800 rounded-2xl overflow-hidden ",
+  title: "text-8xl font-semibold text-white text-center absolute top-1/3 md:inset-x-1/3 text-center",
+  short_title:"text-4xl text-[#006ba1] font-bold text-center mt-4",
+  cardscontainer:"mx-4 mt-16 gap-16 flex flex-wrap items-center md:justify-around justify-center",
+  single_cardcontainer:" text-white w-[300px] flex flex-col items-center shadow-black hover:shadow-xl bg-slate-800 rounded-2xl overflow-hidden ",
   imgcontainer:" flex flex-col justify-center items-center rounded-b-full p-8 bg-[#9ca3af] ",
   img:"h-32 w-32 rounded-full ",
   pos:"text-center pt-2 text-xl",
@@ -168,16 +171,52 @@ const style = {
 }
 
 
-export default function Teams() {
+// export default function Teams() {
+//   return <div>
+//     <Navbar/>
+//     <div className="bg-black  h-auto relative">
+//       <h1 className={style.title}>Our Team</h1>
+//       <Event_back />
+//     </div>
+//        {/*card container and cards are rendered using map of te */}
+//     <div className={`${style.cardscontainer} ${style.centerLastTwo}`}>
+//     {TeamMembers.map((member)=>{
+//       return(<>
+//     <div className={style.single_cardcontainer}>
+//       <div className={style.imgcontainer}>
+//         <img className={style.img} src={member.profile_url}/>
+//         <p className={style.pos}>{member.Position}</p>
+//       </div>
+//       {/* <hr style={{color:"#f00",height:"5px"}}/> */}
+//       <div className={style.name}>{member.Name}</div>
+//       <div className={style.linkcontainer}>
+//         <a href={member.Linkdin}>Linekdin</a>
+//         <a href={member.github}>Github</a>
+//         <a href={member.mail}>Mail</a>
+//       </div>
+//      </div>
+   
+//       </>);
+//   })}
+//        </div>
+//     <Footer/>
+//   </div>
+// }
+
+export default function Teams() 
+{
   return <div>
     <Navbar/>
     <div className="bg-black  h-auto relative">
       <h1 className={style.title}>Our Team</h1>
       <Event_back />
     </div>
-       {/*card container and cards are rendered using map of te */}
-    <div className={`${style.cardscontainer} ${style.centerLastTwo}`}>
-    {TeamMembers.map((member)=>{
+      {/* Executive commitee  */}
+      <div>
+        <h1 className={style.short_title}>Executive Committee</h1>
+        <hr className="h-3 text-gray-700"/>
+         <div className={`${style.cardscontainer} ${style.centerLastTwo}`}>
+     {Executive_team.map((member)=>{
       return(<>
     <div className={style.single_cardcontainer}>
       <div className={style.imgcontainer}>
@@ -196,7 +235,10 @@ export default function Teams() {
       </>);
   })}
        </div>
+      </div>
+
+    
     <Footer/>
   </div>
+  
 }
-
