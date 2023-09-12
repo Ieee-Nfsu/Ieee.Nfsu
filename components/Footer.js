@@ -1,4 +1,4 @@
-import logo from "../images/ieee-thumb.png"
+
 import Image from "next/image";
 const style = {
   footerContainer: "bg-black mt-24 pb-2"
@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row gap-4 md:gap-8 md:justify-between text-white md:mx-auto space-y-5 mx-auto max-w-lg md:max-w-none">
           <div className="flex flex-row gap-4 w-full min-w-fit md:w-1/4 md:mx-auto">
             <div className="flex pt-4 text-white">
-              <Image src={logo} alt="LOGO" className="w-4 h-4" />
+
             </div>
             <div className="flex flex-col md:justify-center">
               <h1 className="heading text-xl font-bold">IEEE</h1>
