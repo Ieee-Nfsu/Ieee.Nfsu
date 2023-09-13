@@ -52,7 +52,7 @@ export default function Footer() {
               <h1 className="heading font-bold">Find us on</h1>
               <div className="flex flex-wrap md:flex-col md:space-x-0 gap-1">
                 <a
-                  href="#"
+                  href="https://instagram.com/ieeenfsu?igshid=MzRlODBiNWFlZA=="
                   target="_blank"
                   className="pr-5 md:pr-0 text-gray-500"
                 >
@@ -61,7 +61,7 @@ export default function Footer() {
                   </span>
                 </a>
                 <a
-                  href="#"
+                  href="https://in.linkedin.com/company/ieee-nfsu-sb"
                   target="_blank"
                   className="pr-5 md:pr-0 text-gray-500"
                 >
@@ -84,7 +84,7 @@ export default function Footer() {
           <div className="flex flex-col w-full md:w-1/5">
             <h1 className="heading font-bold">Official Contact</h1>
             <p className="text-gray-500">
-              <a href="mailto:">mailidof branch</a>
+              <a href="mailto:ieeenfsusb@gmail.com">ieeenfsusb@gmail.com</a>
             </p>
 
           </div>
