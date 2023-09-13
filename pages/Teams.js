@@ -36,123 +36,121 @@ var Executive_team=[
   "mail":"",
   "profile_url":"https://lh3.googleusercontent.com/d/1-OYUH_8BDuvSBfWW0Ud1_oBYkxEyV6Ky"
 },
-]
+];
 
 var Program_team=[ 
   {
   "Name":"Kunal choudhary",
-  "Position":"Web Lead",
+  "Position":"Web Master",
   "Linkdin":"www.linkedin.com/in/kunal-choudhary-23aa81224",
   "github":"https://github.com/kunal0x00",
   "mail":"mailto:kunalchoudhary@ieee.org",
-  "profile_url":"https://media.licdn.com/dms/image/D5603AQFUZrgbsH43Vg/profile-displayphoto-shrink_200_200/0/1677675047276?e=1699488000&v=beta&t=f1NhynYQkiKdvz6bMZVzya1TkQhEydwCQQZVkMl_3Ag"
+  "profile_url":""
 },
     {
   "Name":"Supriy Rathi",
-  "Position":"Program Committe",
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://media.licdn.com/dms/image/D4E03AQHrmnFAkRLvFQ/profile-displayphoto-shrink_100_100/0/1681197925447?e=1700092800&v=beta&t=Smguh437wjk8dbuc4nEkK0p0BUSWDzcl0GAOea8_Jd4"
+  "profile_url":""
 },
   {
   "Name":"Krishita Choksi",
-  "Position":"Program Committe",
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://media.licdn.com/dms/image/D4D03AQGcG0md71vrzQ/profile-displayphoto-shrink_100_100/0/1687669141686?e=1700092800&v=beta&t=CcCkQ3qss1weigLjJkW3o30DiiUfiMygfgoabZc7gBE"
+  "profile_url":""
 },
   {
   "Name":"Varshila Tamboli",
-  "Position":"Program Committe",
   "Linkdin":"",
   "github":"",
   "mail":"",
-"profile_url":"https://media.licdn.com/dms/image/D4D03AQEGEPTHoagqpg/profile-displayphoto-shrink_100_100/0/1687629777596?e=1700092800&v=beta&t=OWyv-85_nHPSg5hEjk9T77X9zJ77qjtRTsUmJwY14Xc"
+"profile_url":""
 },
   {
   "Name":"Taneesha Shah",
-  "Position":"Program Committe",
   "Linkdin":"http://linkedin.com/in/taneesha-shah-b7356b236",
   "github":"http://github.com/tan0001",
   "mail":"mailto:taneesha.shah@ieee.org",
-  "profile_url":"https://media.licdn.com/dms/image/C4E03AQEDXKwRSFYAXg/profile-displayphoto-shrink_100_100/0/1649430722337?e=1700092800&v=beta&t=Zhlwahiiz7LyDgf0B-JnolQI1uSVPgpzw0KYhGS-LJo"
+  "profile_url":""
 },
   {
   "Name":"Soumitri Barury",
-  "Position":"Program Committe",
   "Linkdin":"",
   "github":"https://github.com/SoumitriB",
   "mail":"mailto:soumitri@ieee.org",
-  "profile_url":"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  "profile_url":""
 },
   {
   "Name":"Abhishek Kanzariya",
-  "Position":"Program Committe",
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://media.licdn.com/dms/image/D4D35AQFPTPGgbnei-g/profile-framedphoto-shrink_100_100/0/1694204899881?e=1694952000&v=beta&t=w4R38CMqgK1oW3aHnhhsvhlomlrscl9KAOiA103FiZk"
+  "profile_url":""
 },
   {
   "Name":"Johana Sallangi",
-  "Position":"Program Committe",
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  "profile_url":""
 },
   {
   "Name":"Belinda Grace",
-  "Position":"Program Committe",
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  "profile_url":""
+},];
+  var finance_team=[
+      {
+  "Name":"Khushi Bansal",
+  "Position":"Treasurer",
+  "Linkdin":"",
+  "github":"",
+  "mail":"",
+  "profile_url":"https://lh3.googleusercontent.com/d/1-OYUH_8BDuvSBfWW0Ud1_oBYkxEyV6Ky"
 },
   {
   "Name":"Aarushi Taneja",
-  "Position":"Finance Committe",
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://media.licdn.com/dms/image/D4D03AQGk19mEp4aTAw/profile-displayphoto-shrink_400_400/0/1685706546602?e=1700092800&v=beta&t=ZwoozTkz0bDEVbBfyy1Rk-xhrWoe7OUYNHbPB78mfb8"
+  "profile_url":""
 },
-  
+];
+  var media_team=[
     {
   "Name":"Nitish Deshpande",
-  "Position":"Media and Membership Committe",
   "Linkdin":"https://www.linkedin.com/in/nitish-deshpande-a095341ba/",
   "github":"https://github.com/nitishdeshpande07",
   "mail":"mailto:nitishdeshpande07@ieee.org",
-  "profile_url":"https://media.licdn.com/dms/image/C4D03AQEtGveK8FO88w/profile-displayphoto-shrink_200_200/0/1662822080072?e=1699488000&v=beta&t=x5NMIBw7qioCUwjPoovTmnxY8mKFL2UUCgW1P1WKWts"
+  "profile_url":""
 },
     {
   "Name":"Achal Patil",
-  "Position":"Media Committe",
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://media.licdn.com/dms/image/C4D03AQHWegBRhX-9Aw/profile-displayphoto-shrink_100_100/0/1645037256026?e=1700092800&v=beta&t=YeAxgmTFAKgJcg77xvrOe-ZROAQge581hFlBc-zqFjI"
+  "profile_url":""
+},];
+var membership_team=[
+
+     {
+  "Name":"Nitish Deshpande",
+  "Linkdin":"https://www.linkedin.com/in/nitish-deshpande-a095341ba/",
+  "github":"https://github.com/nitishdeshpande07",
+  "mail":"mailto:nitishdeshpande07@ieee.org",
+  "profile_url":""
 },
     {
   "Name":"Sneh singh",
-  "Position":"Member Committe",
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://media.licdn.com/dms/image/D4D03AQFdthqrjT0UVA/profile-displayphoto-shrink_100_100/0/1675163271034?e=1700092800&v=beta&t=7YyspsdaxVRz-9jqTRfEMOrKT7JNTrTL_K-jCCQXTgA"
-},
-    {
-  "Name":"Johana Sallangi",
-  "Position":"Membership and Content & Design Committe",
-  "Linkdin":"",
-  "github":"",
-  "mail":"",
-  "profile_url":"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-},
-  
+  "profile_url":""
+} 
 ];
 
   
@@ -236,7 +234,85 @@ export default function Teams()
   })}
        </div>
       </div>
+    {/*program Team*/}
+     <div>
+        <h1 className={style.short_title}>Program Committee</h1>
+        <hr className="h-3 text-gray-700"/>
+         <div className={`${style.cardscontainer} ${style.centerLastTwo}`}>
+     {Program_team.map((member)=>{
+      return(<>
+    <div className={style.single_cardcontainer}>
+      <div className={style.imgcontainer}>
+        <img className={style.img} src={member.profile_url}/>
+        <p className={style.pos}>{member.Position}</p>
+      </div>
+      {/* <hr style={{color:"#f00",height:"5px"}}/> */}
+      <div className={style.name}>{member.Name}</div>
+      <div className={style.linkcontainer}>
+        <a href={member.Linkdin}>Linekdin</a>
+        <a href={member.github}>Github</a>
+        <a href={member.mail}>Mail</a>
+      </div>
+     </div>
+   
+      </>);
+  })}
+       </div>
+      </div>
 
+      {/*media Team*/}
+     <div>
+        <h1 className={style.short_title}>Media Committee</h1>
+        <hr className="h-3 text-gray-700"/>
+         <div className={`${style.cardscontainer} ${style.centerLastTwo}`}>
+     {media_team.map((member)=>{
+      return(<>
+    <div className={style.single_cardcontainer}>
+      <div className={style.imgcontainer}>
+        <img className={style.img} src={member.profile_url}/>
+        <p className={style.pos}>{member.Position}</p>
+      </div>
+      {/* <hr style={{color:"#f00",height:"5px"}}/> */}
+      <div className={style.name}>{member.Name}</div>
+      <div className={style.linkcontainer}>
+        <a href={member.Linkdin}>Linekdin</a>
+        <a href={member.github}>Github</a>
+        <a href={member.mail}>Mail</a>
+      </div>
+     </div>
+   
+      </>);
+  })}
+       </div>
+      </div>
+
+    
+    {/*Finance Team*/}
+     <div>
+        <h1 className={style.short_title}>Finance Committee</h1>
+        <hr className="h-3 text-gray-700"/>
+         <div className={`${style.cardscontainer} ${style.centerLastTwo}`}>
+     {finance_team.map((member)=>{
+      return(<>
+    <div className={style.single_cardcontainer}>
+      <div className={style.imgcontainer}>
+        <img className={style.img} src={member.profile_url}/>
+        <p className={style.pos}>{member.Position}</p>
+      </div>
+      {/* <hr style={{color:"#f00",height:"5px"}}/> */}
+      <div className={style.name}>{member.Name}</div>
+      <div className={style.linkcontainer}>
+        <a href={member.Linkdin}>Linekdin</a>
+        <a href={member.github}>Github</a>
+        <a href={member.mail}>Mail</a>
+      </div>
+     </div>
+   
+      </>);
+  })}
+       </div>
+      </div>
+    
     
     <Footer/>
   </div>
