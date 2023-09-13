@@ -10,7 +10,7 @@ var Executive_team=[
   "Linkdin":"https://www.linkedin.com/in/aditi-kulkarni-46715b215",
   "github":"https://github.com/Adicodin",
   "mail":"mailto:aditik@ieee.org",
-  "profile_url":"https://media.licdn.com/dms/image/D4D03AQGQy2KEJdvwOA/profile-displayphoto-shrink_100_100/0/1692795142298?e=1700092800&v=beta&t=Q7UgCArPuGPxExz2uvp7nUenq8uO-0gG0Yg6eVkEwwE"
+"profile_url":"https://lh3.googleusercontent.com/d/1KucJAy8hNKFEVttA5DAsIoN_rA6eDgfG"
 },
     {
   "Name":"Kushagra Trivedi",
@@ -18,7 +18,7 @@ var Executive_team=[
   "Linkdin":"",
   "github":"https://github.com/ryuk-jayant",
   "mail":"",
-  "profile_url":"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  "profile_url":"https://lh3.googleusercontent.com/d/1ssthOZDuhiUa3rurGVSA5kZ0Y5NQqRFk"
 },  
     {
   "Name":"Jayant Dubey",
@@ -34,7 +34,7 @@ var Executive_team=[
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  "profile_url":"https://lh3.googleusercontent.com/d/1-OYUH_8BDuvSBfWW0Ud1_oBYkxEyV6Ky"
 },
 ]
 

@@ -29,19 +29,18 @@ const imglinks = {
 }
 
 export default function Event_single(prop) {
-  const Event=JSON.parse(prop.Event);
-  return(
+  const Event = JSON.parse(prop.Event);
+  return (
     <>  <div className={style.eventcontainer} >
-        <img src={Event.Eimglink} className={style.coverimg} />
-        <div className={style.contentcontainer}>
-          <h1 className={style.eventtitle} >{Event.Ename}</h1>
-          <p className={style.eventtype} >{Event.Etype}</p>
-          <p className={style.eventdescription} >{Event.Edescription}</p>
-          <a className={style.eventlink} href={Event.Eformlink}>Click for more {">>"}</a>
-          <br />
-          <button className={style.eventbutton}>Upcoming</button>
-        </div>
+      <img src={Event.Eimglink} className={style.coverimg} />
+      <div className={style.contentcontainer}>
+        <h1 className={style.eventtitle} >{Event.Ename}</h1>
+        <p className={style.eventtype} >{Event.Etype}</p>
+        <p className={style.eventdescription} >{Event.Edescription}</p>
+        <br />
+        <a href={Event.Eformlink} ><button className={style.eventbutton}>Upcoming</button></a>
       </div>
+    </div>
     </>
   )
 }
