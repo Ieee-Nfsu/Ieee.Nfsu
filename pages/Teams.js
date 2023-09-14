@@ -27,6 +27,14 @@ import Footer from "../components/Footer"
   "mail":"",
   "profile_url":"https://beta.nfsu.ac.in//Uploads/Profile/4.jpg"
 },
+   {
+  "Name":"Dr. Digvijaysinh Rathod",
+  "Position":"Convenor",
+  "Linkdin":"",
+  "github":"",
+  "mail":"",
+  "profile_url":"https://beta.nfsu.ac.in//Uploads/Profile/5.jpg"
+},
 ];
  var Branch_coun=[
      {

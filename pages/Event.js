@@ -50,11 +50,11 @@ const event = Events.map((event) =>
        <h1 className={style.title}>Our Events</h1>
       <Event_back />
     </div>
-    <div className={style.centerbutton}>
+    {/* <div className={style.centerbutton}>
       <Link href="/">
       <button className={style.bigbutton}>view in Calender</button>
       </Link>
-    </div>
+    </div> */}
     <div className={style.eventscontainer} >
       {event}
     </div>
