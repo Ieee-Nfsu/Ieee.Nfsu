@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 
  var Patron_list=[
      {
-  "Name":"DR. J. M. VYAS",
+  "Name":"Dr. J. M. VYAS",
   "Position":"Chief Patron",
   "post":"Hon'ble VC NFSU",
   "Linkdin":"",
@@ -22,7 +22,7 @@ import Footer from "../components/Footer"
   "profile_url":"https://beta.nfsu.ac.in//Uploads/Profile/153.jpg"
       },
      {
-  "Name":"Prof. Naveen Chaudhary ",
+  "Name":"Prof. (Dr.) Naveen Chaudhary ",
   "Position":"Co-Patron",
   "post":"Dean, School of Cyber Security & Digital Forensics",
   "Linkdin":"",
@@ -60,7 +60,7 @@ import Footer from "../components/Footer"
   "profile_url":"https://lh3.googleusercontent.com/d/1wTEzF6OK0ZKWYW1--LZnYyHhTn2baElr"
       },
      {
-  "Name":"Dr. Nikunj",
+  "Name":"Dr. Nikunj Tahilramani",
   "Position":"Faculty Coordinator",
   "Linkdin":"",
   "github":"",
@@ -241,7 +241,7 @@ const style = {
   pos:"text-center pt-2 text-xl",
   name:"text-3xl",
   description:"",
-  linkcontainer:"gap-3 flex",
+  linkcontainer:"gap-3 flex m-2",
   links:""
 }
 const style_for_paterons={
@@ -261,7 +261,8 @@ const style_for_counslor={
     imgcontainer:" flex flex-col justify-center items-center rounded-b-full p-7 bg-[#009CA6] ",
    img:"h-36 w-36 rounded-full ",
   pos:"text-center pt-2 text-lg",
-  name:"text-3xl p-2",
+  name:"text-3xl text-center p-2",
+  linkcontainer:"m-2 text-center",
 }
 
 // export default function Teams() {#9ca3af
@@ -344,7 +345,7 @@ export default function Teams()
       </div>
       {/* <hr style={{color:"#f00",height:"5px"}}/> */}
       <div className={style_for_counslor.name}>{member.Name}</div>
-      <div className={style.linkcontainer}>
+      <div className={style_for_counslor.linkcontainer}>
         {member.post}
       </div>
      </div>
