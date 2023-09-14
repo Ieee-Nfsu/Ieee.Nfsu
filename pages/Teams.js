@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
      {
   "Name":"DR. J. M. VYAS",
   "Position":"Chief Patron",
+  "post":"Hon'ble VC NFSU",
   "Linkdin":"",
   "github":"",
   "mail":"",
@@ -14,6 +15,7 @@ import Footer from "../components/Footer"
       {
   "Name":"Prof. (Dr.) S. O. Junare",
   "Position":"Patron",
+  "post":"Director, Gujarat Campus, NFSU",
   "Linkdin":"",
   "github":"",
   "mail":"",
@@ -22,6 +24,7 @@ import Footer from "../components/Footer"
      {
   "Name":"Prof. Naveen Chaudhary ",
   "Position":"Co-Patron",
+  "post":"Dean, School of Cyber Security & Digital Forensics",
   "Linkdin":"",
   "github":"",
   "mail":"",
@@ -30,6 +33,7 @@ import Footer from "../components/Footer"
    {
   "Name":"Dr. Digvijaysinh Rathod",
   "Position":"Convenor",
+  "post":"Associate Dean, School of Cyber Security & Digital Forensics",
   "Linkdin":"",
   "github":"",
   "mail":"",
@@ -43,7 +47,8 @@ import Footer from "../components/Footer"
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://lh3.googleusercontent.com/d/13VuagUVgfRvp_De6VAcgaZ6faAioSrCF"
+  "post":"Assistant Professor",
+       "profile_url":"https://lh3.googleusercontent.com/d/13VuagUVgfRvp_De6VAcgaZ6faAioSrCF"
 },
       {
   "Name":"Dr. Vijeta Khare",
@@ -51,6 +56,7 @@ import Footer from "../components/Footer"
   "Linkdin":"",
   "github":"",
   "mail":"",
+  "post":"Assistant Professor",
   "profile_url":"https://lh3.googleusercontent.com/d/1wTEzF6OK0ZKWYW1--LZnYyHhTn2baElr"
       },
      {
@@ -59,7 +65,7 @@ import Footer from "../components/Footer"
   "Linkdin":"",
   "github":"",
   "mail":"",
-  "profile_url":"https://lh3.googleusercontent.com/d/1WiC7Q2C0gxivOYMIdtD3FseJ-F_OflQ3"
+   "post":"Assistant Professor", "profile_url":"https://lh3.googleusercontent.com/d/1WiC7Q2C0gxivOYMIdtD3FseJ-F_OflQ3"
 },
 ];
 var Executive_team=[
@@ -247,7 +253,7 @@ const style_for_paterons={
   pos:"text-center mt-2 text-xl max-w-lg",
   name:"text-3xl max-w-xl m-4 text-center",
   description:"",
-  linkcontainer:"p-2 gap-3 flex",
+  linkcontainer:"m-1 text-center",
   links:""
 }
 
@@ -314,7 +320,7 @@ export default function Teams()
       {/* <hr style={{color:"#f00",height:"5px"}}/> */}
       <div className={style_for_paterons.name}>{member.Name}</div>
       <div className={style_for_paterons.linkcontainer}>
-        
+        {member.post}
       </div>
      </div>
    
@@ -339,7 +345,7 @@ export default function Teams()
       {/* <hr style={{color:"#f00",height:"5px"}}/> */}
       <div className={style_for_counslor.name}>{member.Name}</div>
       <div className={style.linkcontainer}>
-        
+        {member.post}
       </div>
      </div>
    
