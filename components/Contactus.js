@@ -42,7 +42,7 @@ export default function ContactUs(){
     <div className={style.formcontainer}>
       <Formik
       
-      initialValues={{ email: "", messg: "" }}
+      initialValues={{ email: "", messg: "" ,response:"Your suggestion is with us now!!"}}
       validate={(values) => {
         const errors = {};
 
@@ -59,7 +59,7 @@ export default function ContactUs(){
       }}
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
-          alert(JSON.stringify(values, null, 2));
+          alert(JSON.stringify(values, null, 3));
 
           setSubmitting(false);
         }, 400);

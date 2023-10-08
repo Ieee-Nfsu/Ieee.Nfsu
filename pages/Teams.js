@@ -244,18 +244,18 @@ const style = {
   linkcontainer:"gap-3 flex m-2",
   links:""
 }
-const style_for_paterons={
-  short_title:"text-4xl text-[#006ba1] font-bold text-center mt-4",
-  cardscontainer:"mx-4 mt-16 gap-16 flex flex-wrap items-center md:justify-around justify-center",
-  single_cardcontainer:"h-96 min-h-fit text-white w-[300px] flex flex-col items-center shadow-black hover:shadow-xl bg-[#002855] rounded-2xl overflow-hidden ",
-  imgcontainer:" flex flex-col justify-center items-center rounded-b-full p-6 bg-[#FFA300] ",
-  img:"h-36 w-36 rounded-full ",
-  pos:"text-center mt-2 text-xl max-w-lg",
-  name:"text-3xl max-w-xl m-4 text-center",
-  description:"",
-  linkcontainer:"m-1 text-center",
-  links:""
-}
+// const style_for_paterons={
+//   short_title:"text-4xl text-[#006ba1] font-bold text-center mt-4",
+//   cardscontainer:"mx-4 mt-16 gap-16 flex flex-wrap items-center md:justify-around justify-center",
+//   single_cardcontainer:"h-96 min-h-fit text-white w-[300px] flex flex-col items-center shadow-black hover:shadow-xl bg-[#002855] rounded-2xl overflow-hidden ",
+//   imgcontainer:" flex flex-col justify-center items-center rounded-b-full p-6 bg-[#FFA300] ",
+//   img:"h-36 w-36 rounded-full ",
+//   pos:"text-center mt-2 text-xl max-w-lg",
+//   name:"text-3xl max-w-xl m-4 text-center",
+//   description:"",
+//   linkcontainer:"m-1 text-center",
+//   links:""
+// }
 
 const style_for_counslor={
     imgcontainer:" flex flex-col justify-center items-center rounded-b-full p-7 bg-[#009CA6] ",
@@ -307,7 +307,7 @@ export default function Teams()
     </div>
 
       {/* Branch Patrons */}
-      <div>
+      {/* <div>
         <h1 className={style_for_paterons.short_title}>Patrons</h1>
         <hr className="h-3 text-gray-700"/>
          <div className={`${style_for_paterons.cardscontainer}`}>
@@ -319,7 +319,7 @@ export default function Teams()
         <p className={style_for_paterons.pos}>{member.Position}</p>
       </div>
       {/* <hr style={{color:"#f00",height:"5px"}}/> */}
-      <div className={style_for_paterons.name}>{member.Name}</div>
+      {/* <div className={style_for_paterons.name}>{member.Name}</div>
       <div className={style_for_paterons.linkcontainer}>
         {member.post}
       </div>
@@ -328,7 +328,7 @@ export default function Teams()
       </>);
   })}
        </div>
-      </div>
+      </div> */}
 
     
      {/* Branch Heads */}

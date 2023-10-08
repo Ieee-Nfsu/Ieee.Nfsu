@@ -5,6 +5,7 @@ import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import Contactus from "../components/Contactus"
 import Event_single from "../components/Event_single"
+//import past_Event_single from "../components/Past_Event"
 import {useState,useEffect} from "react";
 import {db } from "../firebase";
 import { collection, getDocs } from "firebase/firestore";
@@ -19,8 +20,8 @@ const style = {
 
 export default function Events() {
 
-   const [Events,setEvents] = useState([]);
-
+  const [Events,setEvents] = useState([]);
+  const [pastEvent,setPastEvent]=useState([])
 
   const fetchEvent = async () => {
        
@@ -29,10 +30,9 @@ export default function Events() {
             const newData = querySnapshot.docs
                 .map((doc) => ({...doc.data(), id:doc.id }));
             setEvents(newData);                
-            console.log(Events);
+            //console.log(Events);
             //console.log(typeof(newData));
         })
-   
   }
   useEffect(()=>{
     fetchEvent();
@@ -42,7 +42,8 @@ export default function Events() {
 const event = Events.map((event) =>
   <Event_single key={(event.Eid).toString()} Event={JSON.stringify(event)} />
 );
-  
+
+
   
   return (<div>
      <Navbar/>
